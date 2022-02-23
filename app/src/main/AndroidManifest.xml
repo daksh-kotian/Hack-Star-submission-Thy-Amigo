@@ -9,9 +9,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ThyAmigoForever">
+
         <activity
-            android:name=".Main_Map"
-            android:exported="false" />
+            android:name=".MapsActivity"
+            android:exported="true"
+            android:label="@string/title_activity_maps">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAPcPiAtiUBsJUkU3b3IgvY6PlEYwlFPkM" />
+
         <activity
             android:name=".Ambulance_Mainframe"
             android:exported="false" />
