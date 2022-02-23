@@ -4,12 +4,10 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.Dialog;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
-import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
@@ -34,7 +32,7 @@ public class Police_Mainframe extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.police_mainframe_activity);
-        btnalert=findViewById(R.id.button);
+        btnalert=findViewById(R.id.btn_proceed);
         dialog= new Dialog(this);
 
         btnalert.setOnClickListener(new View.OnClickListener() {
