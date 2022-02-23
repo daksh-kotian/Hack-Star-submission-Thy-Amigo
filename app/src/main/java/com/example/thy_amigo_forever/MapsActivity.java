@@ -1,5 +1,7 @@
 package com.example.thy_amigo_forever;
 
+//this took a hell lot of my brain-cells to sort !
+
 import androidx.fragment.app.FragmentActivity;
 
 import android.app.Dialog;
