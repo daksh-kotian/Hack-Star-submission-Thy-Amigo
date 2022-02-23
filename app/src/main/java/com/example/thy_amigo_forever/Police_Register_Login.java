@@ -9,7 +9,7 @@ public class Police_Register_Login extends AppCompatActivity {
     //two buttons here are for login and register respectively
     // mark the changes accordingly
     // Intends needed to navigate to
-    // Police_Mainframe and Police_Registry Respectively
+    // Police_Mainframe and Police_Registry Respectively hi
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
