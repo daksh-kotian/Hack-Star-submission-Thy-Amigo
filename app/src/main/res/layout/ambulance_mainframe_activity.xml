@@ -10,15 +10,22 @@
         android:id="@+id/button8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="maps"
         android:text="Main Map"
-        tools:layout_editor_absoluteX="137dp"
-        tools:layout_editor_absoluteY="186dp" />
+        app:layout_constraintBottom_toTopOf="@+id/button9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="alert"
         android:text="Alert send and recieve"
-        tools:layout_editor_absoluteX="90dp"
-        tools:layout_editor_absoluteY="428dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.585" />
 </androidx.constraintlayout.widget.ConstraintLayout>

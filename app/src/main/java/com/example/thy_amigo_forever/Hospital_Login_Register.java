@@ -38,10 +38,12 @@ public class Hospital_Login_Register extends AppCompatActivity {
         if(userID.equals(AdminID) && password.equals(AdminPD)){
             //this if - for admin check
             Intent intent = new Intent(this, Hospital_Admin_Mainframe.class);
+            startActivity(intent);
         }
         else if (userID.equals(AmbId) && password.equals(AmbPd)){
             //this if - for ambulance check
             Intent intent = new Intent(this, Ambulance_Mainframe.class);
+            startActivity(intent);
         }
         else{
             //this check - for invalid Id's and Passwords
@@ -49,14 +51,18 @@ public class Hospital_Login_Register extends AppCompatActivity {
         }
     }
 
-    public void adminReg(View view){
+        public void adminReg(View view){
+
+            Intent intent = new Intent(this, Hospital_Ambulance_Register.class);
+            startActivity(intent);
+        }
 
         //jisko ye page mile, congrats
         // addhe se jyada kaam done hai,
         // iss funtion ko intent krdo to
         //Hospital_Ambulance_Register
         //ye function, second button ke OnClick ka hissa hai... Just FYI....
-    }
+
     //my written code ends here !!!
 
     @Override
