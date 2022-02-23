@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.thy_amigo_forever">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ThyAmigoForever">
+        <activity
+            android:name=".Main_Map"
+            android:exported="false" />
+        <activity
+            android:name=".Ambulance_Mainframe"
+            android:exported="false" />
+        <activity
+            android:name=".Hospital_Admin_Mainframe"
+            android:exported="false" />
+        <activity
+            android:name=".Police_Mainframe"
+            android:exported="false" />
+        <activity
+            android:name=".Police_Registry"
+            android:exported="false" />
+        <activity
+            android:name=".Hospital_Ambulance_Register"
+            android:exported="false" />
+        <activity
+            android:name=".Police_Register_Login"
+            android:exported="false" />
+        <activity
+            android:name=".Hospital_Login_Register"
+            android:exported="false" />
+        <activity
+            android:name=".Login_and_Register"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
