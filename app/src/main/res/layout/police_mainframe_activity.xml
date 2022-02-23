@@ -4,21 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Police_Mainframe">
+    tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Main_Map"
-        tools:layout_editor_absoluteX="99dp"
-        tools:layout_editor_absoluteY="188dp" />
-
-    <Button
-        android:id="@+id/button5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Alert"
-        tools:layout_editor_absoluteX="105dp"
-        tools:layout_editor_absoluteY="417dp" />
+        android:text="alert"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
