@@ -43,9 +43,6 @@
             android:name=".Hospital_Login_Register"
             android:exported="false" />
         <activity
-            android:name=".Login_and_Register"
-            android:exported="false" />
-        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

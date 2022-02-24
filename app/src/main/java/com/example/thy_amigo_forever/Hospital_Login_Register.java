@@ -11,6 +11,8 @@ import android.widget.Toast;
 
 public class Hospital_Login_Register extends AppCompatActivity {
 
+    public static final String Msg = "com.example.thy_amigo_forever.msg" ;
+
     //this is the line that I wrote and ...
     //this is basically a Function that I also has defined in the attribute
     //of Log-In button as onClick() and this basically indicates,
@@ -38,11 +40,13 @@ public class Hospital_Login_Register extends AppCompatActivity {
         if(userID.equals(AdminID) && password.equals(AdminPD)){
             //this if - for admin check
             Intent intent = new Intent(this, Hospital_Admin_Mainframe.class);
+            intent.putExtra(Msg, AdminID);
             startActivity(intent);
         }
         else if (userID.equals(AmbId) && password.equals(AmbPd)){
             //this if - for ambulance check
             Intent intent = new Intent(this, Ambulance_Mainframe.class);
+            intent.putExtra(Msg, AmbId);
             startActivity(intent);
         }
         else{

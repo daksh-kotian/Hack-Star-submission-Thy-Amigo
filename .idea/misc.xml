@@ -5,9 +5,12 @@
       <map>
         <entry key="..\:/Users/HP/AndroidStudioProjects/HackStar-Final/app/src/main/res/layout/activity_main.xml" value="0.1703125" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/HackStar-Final/app/src/main/res/layout/activity_maps.xml" value="0.1703125" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/HackStar-Final/app/src/main/res/layout/ambulance_mainframe.xml" value="0.1703125" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/HackStar-Final/app/src/main/res/layout/ambulance_mainframe_activity.xml" value="0.1703125" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/HackStar-Final/app/src/main/res/layout/hospital_admin_mainframe_activity.xml" value="0.1703125" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/HackStar-Final/app/src/main/res/layout/hospital_ambulance_register_activity.xml" value="0.1703125" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/HackStar-Final/app/src/main/res/layout/hospital_login_register_activity.xml" value="0.1703125" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/HackStar-Final/app/src/main/res/layout/login_and_register_activity.xml" value="0.1703125" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/HackStar-Final/app/src/main/res/layout/police_mainframe_activity.xml" value="0.1703125" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/HackStar-Final/app/src/main/res/layout/police_register_login_activity.xml" value="0.2279136753195804" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/HackStar-Final/app/src/main/res/layout/police_registry_activity.xml" value="0.1703125" />
