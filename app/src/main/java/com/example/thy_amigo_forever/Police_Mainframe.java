@@ -16,12 +16,10 @@ import android.widget.Toast;
 public class Police_Mainframe extends AppCompatActivity {
 
     Button btnalert;
+    Button btnalert2;
     Dialog dialog;
 
-    public void accept(View view){
-        Intent intent = new Intent(this, MapsActivity.class);
-        startActivity(intent);
-    }
+
 
 
     //Intent to Main_Map
@@ -41,16 +39,47 @@ public class Police_Mainframe extends AppCompatActivity {
                 openalert();
             }
         });
+        btnalert2=findViewById(R.id.btn_proceed2);
+        dialog= new Dialog(this);
+
+        btnalert2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openalert2();
+            }
+        });
 
     }
     //hi
-
+    //pop up
     private void openalert(){
         dialog.setContentView(R.layout.alert_police_layout);
         dialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
 
         ImageView imageViewClose=dialog.findViewById(R.id.imageViewclose);
-        Button btn_accept=dialog.findViewById(R.id.btn_accept);
+        Button btn_accept=dialog.findViewById(R.id.btn_accept2);
+
+        imageViewClose.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                dialog.dismiss();
+                Toast.makeText(Police_Mainframe.this, "Close", Toast.LENGTH_SHORT).show();
+            }
+        });
+
+
+//JIja
+
+        dialog.show();
+
+
+    }
+    private void openalert2(){
+        dialog.setContentView(R.layout.alert_police2_layout);
+        dialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+
+        ImageView imageViewClose=dialog.findViewById(R.id.imageViewclose);
+        Button btn_accept=dialog.findViewById(R.id.btn_accept2);
 
         imageViewClose.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -67,5 +96,14 @@ public class Police_Mainframe extends AppCompatActivity {
 
 
     }
+    public void accept(View view){
+        Intent intent = new Intent(this, MapsActivity.class);
+        startActivity(intent);
+    }
+    public void accept2(View view){
+        Intent intent = new Intent(this, MapsActivity.class);
+        startActivity(intent);
+    }
+
 
 }
