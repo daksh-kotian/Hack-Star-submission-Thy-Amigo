@@ -9,4 +9,7 @@
     <color name="white">#FFFFFFFF</color>
     <color name="red">#EA0C0C</color>
     <color name="yellow">#F1ED11</color>
+    <color name="mint">#72CEC1</color>
+    <color name="slate">#483D8B</color>
+    <color name="light_slate">#5CB3FF</color>
 </resources>
