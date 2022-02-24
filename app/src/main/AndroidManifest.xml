@@ -14,11 +14,6 @@
             android:name=".MapsActivity"
             android:exported="true"
             android:label="@string/title_activity_maps">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
 
         <meta-data
@@ -34,11 +29,6 @@
         <activity
             android:name=".Police_Mainframe"
             android:exported="true" >
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
-
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
         </activity>
         <activity
             android:name=".Police_Registry"
@@ -51,9 +41,6 @@
             android:exported="false" />
         <activity
             android:name=".Hospital_Login_Register"
-            android:exported="false" />
-        <activity
-            android:name=".Login_and_Register"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

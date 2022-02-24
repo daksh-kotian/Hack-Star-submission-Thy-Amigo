@@ -47,7 +47,7 @@
                     android:layout_width="120dp"
                     android:layout_height="61dp"
                     android:background="@drawable/btn_bg"
-                    android:onClick="accept"
+                    android:onClick="hospital"
                     android:text="HOSPITAL"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toStartOf="@+id/btn_police"
@@ -56,23 +56,24 @@
                     app:layout_constraintTop_toTopOf="parent"
                     app:layout_constraintVertical_bias="0.532" />
 
-            <Button
-                android:id="@+id/btn_police"
-                android:layout_width="139dp"
-                android:layout_height="63dp"
-                android:layout_margin="20dp"
-                android:layout_marginEnd="4dp"
-                android:background="@drawable/btn_bg"
-                android:text="POLICE"
-                android:textAllCaps="false"
-                android:textColor="@color/white"
-                android:textSize="15dp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.942"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.532" />
+                <Button
+                    android:id="@+id/btn_police"
+                    android:layout_width="139dp"
+                    android:layout_height="63dp"
+                    android:layout_margin="20dp"
+                    android:layout_marginEnd="4dp"
+                    android:background="@drawable/btn_bg"
+                    android:onClick="police"
+                    android:text="POLICE"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="15dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.942"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.532" />
 
 
         </androidx.constraintlayout.widget.ConstraintLayout>

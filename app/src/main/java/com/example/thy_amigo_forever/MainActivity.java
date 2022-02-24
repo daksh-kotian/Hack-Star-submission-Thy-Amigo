@@ -3,6 +3,7 @@ package com.example.thy_amigo_forever;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.Dialog;
+import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
@@ -26,6 +27,18 @@ public class MainActivity extends AppCompatActivity {
     // Police_Register_Login
     // respectively...
 
+    //this is how you create a intent !
+    public void hospital(View view){
+
+        Intent intent = new Intent(this, Hospital_Login_Register.class);
+        startActivity(intent);
+    }
+
+    public void police(View view){
+
+        Intent intent = new Intent(this, Police_Register_Login.class);
+        startActivity(intent);
+    }
 
     // Ignore the Login_and_Register Activity For RN !
 
@@ -53,9 +66,6 @@ public class MainActivity extends AppCompatActivity {
     private void openalert(){
         dialog.setContentView(R.layout.proceed_popup);
         dialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
-
-
-
 
        dialog.show();
     }
