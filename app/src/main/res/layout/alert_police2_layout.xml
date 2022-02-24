@@ -64,13 +64,15 @@
                 app:layout_constraintVertical_bias="0.0" />
 
             <Button
-                android:id="@+id/btn_accept"
+                android:id="@+id/btn_accept2"
                 android:layout_width="96dp"
                 android:layout_height="60dp"
-                android:backgroundTint="@color/red"
                 android:background="@drawable/btn_bg"
-                android:onClick="accept"
-                android:text="ACCEPT"
+                android:backgroundTint="@color/red"
+
+
+                android:onClick="accept2"
+                android:text="VIEW ROUTE"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.455"
@@ -108,7 +110,7 @@
                 android:layout_width="129dp"
                 android:layout_height="51dp"
                 android:layout_marginTop="4dp"
-                android:text="Ambulance UP14XX5050 "
+                android:text="Ambulance DL20XX2002 "
                 android:textColor="@color/yellow"
                 android:textSize="20sp"
                 android:textStyle="bold"

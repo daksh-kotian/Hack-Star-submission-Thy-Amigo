@@ -3,13 +3,20 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/New folder/HackStar-Final/app/src/main/res/drawable/btn_bg.xml" value="0.2265" />
-        <entry key="..\:/New folder/HackStar-Final/app/src/main/res/layout/activity_maps.xml" value="0.19479166666666667" />
-        <entry key="..\:/New folder/HackStar-Final/app/src/main/res/layout/alert_police_layout.xml" value="0.22083333333333333" />
-        <entry key="..\:/New folder/HackStar-Final/app/src/main/res/layout/ambulance_mainframe.xml" value="0.22083333333333333" />
-        <entry key="..\:/New folder/HackStar-Final/app/src/main/res/layout/hospital_ambulance_register_activity.xml" value="0.2" />
-        <entry key="..\:/New folder/HackStar-Final/app/src/main/res/layout/police_register_login_activity.xml" value="0.23645833333333333" />
-        <entry key="..\:/New folder/HackStar-Final/app/src/main/res/layout/police_registry_activity.xml" value="0.264" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/HackStar-Final/app/src/main/res/layout/activity_main.xml" value="0.1703125" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/HackStar-Final/app/src/main/res/layout/activity_maps.xml" value="0.1703125" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/HackStar-Final/app/src/main/res/layout/alert_police2_layout.xml" value="0.1703125" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/HackStar-Final/app/src/main/res/layout/alert_police_layout.xml" value="0.1703125" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/HackStar-Final/app/src/main/res/layout/ambulance_mainframe.xml" value="0.1703125" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/HackStar-Final/app/src/main/res/layout/ambulance_mainframe_activity.xml" value="0.1703125" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/HackStar-Final/app/src/main/res/layout/hospital_admin_mainframe_activity.xml" value="0.1703125" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/HackStar-Final/app/src/main/res/layout/hospital_ambulance_register_activity.xml" value="0.1703125" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/HackStar-Final/app/src/main/res/layout/hospital_login_register_activity.xml" value="0.1703125" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/HackStar-Final/app/src/main/res/layout/login_and_register_activity.xml" value="0.1703125" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/HackStar-Final/app/src/main/res/layout/police_mainframe_activity.xml" value="0.1703125" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/HackStar-Final/app/src/main/res/layout/police_register_login_activity.xml" value="0.2279136753195804" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/HackStar-Final/app/src/main/res/layout/police_registry_activity.xml" value="0.1703125" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/HackStar-Final/app/src/main/res/layout/proceed_popup.xml" value="0.1703125" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/ThyAmigoForever/app/src/main/res/layout/activity_main.xml" value="0.1703125" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/ThyAmigoForever/app/src/main/res/layout/activity_maps.xml" value="0.1703125" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/ThyAmigoForever/app/src/main/res/layout/ambulance_mainframe_activity.xml" value="0.1703125" />
@@ -18,18 +25,11 @@
         <entry key="..\:/Users/HP/AndroidStudioProjects/ThyAmigoForever/app/src/main/res/layout/main_map_activity.xml" value="0.1703125" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/ThyAmigoForever/app/src/main/res/layout/police_mainframe_activity.xml" value="0.1703125" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/ThyAmigoForever/app/src/main/res/layout/police_register_login_activity.xml" value="0.1703125" />
-        <entry key="..\:/gitrepo/app/src/main/res/drawable/btn_bg.xml" value="0.2265" />
-        <entry key="..\:/gitrepo/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
-        <entry key="..\:/gitrepo/app/src/main/res/layout/activity_maps.xml" value="0.22826086956521738" />
-        <entry key="..\:/gitrepo/app/src/main/res/layout/alert_police_layout.xml" value="0.22826086956521738" />
-        <entry key="..\:/gitrepo/app/src/main/res/layout/ambulance_mainframe.xml" value="0.22826086956521738" />
-        <entry key="..\:/gitrepo/app/src/main/res/layout/ambulance_mainframe_activity.xml" value="0.22826086956521738" />
-        <entry key="..\:/gitrepo/app/src/main/res/layout/hospital_admin_mainframe_activity.xml" value="0.22826086956521738" />
-        <entry key="..\:/gitrepo/app/src/main/res/layout/hospital_ambulance_register_activity.xml" value="0.22826086956521738" />
-        <entry key="..\:/gitrepo/app/src/main/res/layout/hospital_login_register_activity.xml" value="0.22826086956521738" />
-        <entry key="..\:/gitrepo/app/src/main/res/layout/police_mainframe_activity.xml" value="0.22826086956521738" />
-        <entry key="..\:/gitrepo/app/src/main/res/layout/police_register_login_activity.xml" value="0.22826086956521738" />
-        <entry key="..\:/gitrepo/app/src/main/res/layout/police_registry_activity.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/justt/AndroidStudioProjects/HackStar-Final/app/src/main/res/drawable/btn_bg.xml" value="0.2345" />
+        <entry key="..\:/Users/justt/AndroidStudioProjects/HackStar-Final/app/src/main/res/layout/activity_main.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/justt/AndroidStudioProjects/HackStar-Final/app/src/main/res/layout/alert_police_layout.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/justt/AndroidStudioProjects/HackStar-Final/app/src/main/res/layout/police_registry_activity.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/justt/AndroidStudioProjects/HackStar-Final/app/src/main/res/layout/proceed_popup.xml" value="0.23229166666666667" />
       </map>
     </option>
   </component>
