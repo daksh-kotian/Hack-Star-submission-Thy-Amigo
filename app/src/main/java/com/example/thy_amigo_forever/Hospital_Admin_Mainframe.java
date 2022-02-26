@@ -26,6 +26,11 @@ public class Hospital_Admin_Mainframe extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void logout(View view){
+        Intent intent = new Intent(this, Hospital_Login_Register.class);
+        startActivity(intent);
+    }
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

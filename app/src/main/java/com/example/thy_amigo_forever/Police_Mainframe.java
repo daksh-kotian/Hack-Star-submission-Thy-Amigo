@@ -19,7 +19,10 @@ public class Police_Mainframe extends AppCompatActivity {
     Button btnalert2;
     Dialog dialog;
 
-
+    public void signout(View view){
+        Intent intent = new Intent(this, Police_Register_Login.class);
+        startActivity(intent);
+    }
 
 
     //Intent to Main_Map
@@ -104,6 +107,5 @@ public class Police_Mainframe extends AppCompatActivity {
         Intent intent = new Intent(this, MapsActivity.class);
         startActivity(intent);
     }
-
 
 }
