@@ -197,7 +197,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
             mMap.animateCamera(CameraUpdateFactory.newCameraPosition(cameraPosition));
             Toast.makeText(this, "Officer 2,Out of range ",Toast.LENGTH_SHORT).show();
             Toast.makeText(this, "Officer 4,Out of range ",Toast.LENGTH_SHORT).show();
-
+//hi
         }
         else{
             cameraPosition = new CameraPosition.Builder().target(new LatLng(28.6786445,77.4685118)).zoom(15).build();
