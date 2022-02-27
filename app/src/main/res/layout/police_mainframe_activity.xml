@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/POLICE"
+    android:background="@drawable/police"
     tools:context=".MainActivity">
 
     <TextView
@@ -156,7 +156,7 @@
         android:layout_marginTop="33dp"
         android:backgroundTint="@color/black"
         android:fontFamily="sans-serif-black"
-        android:onClick="signout"
+        android:onClick="signout1"
         android:text="Log-Out"
         android:textColor="@color/white"
         android:textSize="16sp"

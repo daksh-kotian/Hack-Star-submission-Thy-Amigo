@@ -18,13 +18,6 @@ public class Police_Mainframe extends AppCompatActivity {
     Button btnalert;
     Button btnalert2;
     Dialog dialog;
-
-    public void signout(View view){
-        Intent intent = new Intent(this, Police_Register_Login.class);
-        startActivity(intent);
-    }
-
-
     //Intent to Main_Map
     // and alert
     // to inform communication with Hospital_Mainframe
@@ -105,6 +98,10 @@ public class Police_Mainframe extends AppCompatActivity {
     }
     public void accept2(View view){
         Intent intent = new Intent(this, MapsActivity.class);
+        startActivity(intent);
+    }
+    public void signout1(View view){
+        Intent intent = new Intent(this, Police_Register_Login.class);
         startActivity(intent);
     }
 

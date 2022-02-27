@@ -30,23 +30,23 @@ public class Hospital_Login_Register extends AppCompatActivity {
         //String ambID = UserID.getText().toString();
         //String ambPd = Password.getText().toString();
         //Creating My Own String To then Compare the abv Ones too...
-        String AdminID = "Mangalam"; //...................................admin login id String
-        String AdminPD = "Charu"; //...................................admin login Password
+        String AdminID = "admin"; //...................................admin login id String
+        String AdminPD = "admin"; //...................................admin login Password
         //Again twice to serve two diff login's at once !
-        String AmbId = "Daksh";//...........................................ambulance login Id
-        String AmbPd = "Astha";//...........................................ambulance login Password
+        String AmbId = "ambu";//...........................................ambulance login Id
+        String AmbPd = "ambu";//...........................................ambulance login Password
 
         //Main Logic - to compare individually each string to differentiate the Log-In and henceforth take them to Diff Intent
         if(userID.equals(AdminID) && password.equals(AdminPD)){
             //this if - for admin check
             Intent intent = new Intent(this, Hospital_Admin_Mainframe.class);
-            intent.putExtra(Msg, AdminID);
+            intent.putExtra(Msg, "Admin");
             startActivity(intent);
         }
         else if (userID.equals(AmbId) && password.equals(AmbPd)){
             //this if - for ambulance check
             Intent intent = new Intent(this, Ambulance_Mainframe.class);
-            intent.putExtra(Msg, AmbId);
+            intent.putExtra(Msg, "Ambulace - 19");
             startActivity(intent);
         }
         else{

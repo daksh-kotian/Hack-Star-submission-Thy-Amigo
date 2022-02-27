@@ -4,14 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/FRONT"
+    android:background="@drawable/front"
     tools:context=".MainActivity">
 
     <Button
         android:id="@+id/btn_proceed"
         android:layout_width="198dp"
         android:layout_height="69dp"
-        android:layout_marginBottom="96dp"
+        android:layout_marginBottom="80dp"
         android:backgroundTint="@color/black"
         android:fontFamily="sans-serif-black"
 
