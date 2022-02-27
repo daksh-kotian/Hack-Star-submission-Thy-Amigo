@@ -54,8 +54,8 @@
 
     <TextView
         android:id="@+id/textView14"
-        android:layout_width="321dp"
-        android:layout_height="56dp"
+        android:layout_width="376dp"
+        android:layout_height="88dp"
         android:fontFamily="@font/hammersmith_one"
         android:text="Hospital Home Page"
         android:textColor="#0C0C0C"

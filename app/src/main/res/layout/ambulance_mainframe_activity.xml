@@ -31,7 +31,7 @@
         android:backgroundTint="@color/black"
         android:fontFamily="sans-serif-black"
         android:onClick="alert"
-        android:text="Alert send and receive"
+        android:text="Initiate Emergency"
         android:textColor="@color/white"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -43,8 +43,8 @@
 
     <TextView
         android:id="@+id/tv"
-        android:layout_width="175dp"
-        android:layout_height="29dp"
+        android:layout_width="271dp"
+        android:layout_height="33dp"
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/button8"
         app:layout_constraintEnd_toEndOf="parent"

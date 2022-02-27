@@ -120,6 +120,9 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         // mMap.moveCamera(CameraUpdateFactory.newLatLng(target));
         LatLng ghaziabad = new LatLng(28.676791, 77.471661);
         LatLng mrk1 = new LatLng(28.67607776808457, 77.46248892938947);
+        LatLng mrk2 = new LatLng(28.6751289996994, 77.46392087896069);
+        LatLng mrk3 = new LatLng(28.67442192026655, 77.45558446124551);
+        LatLng mrk4 = new LatLng(28.673951068455715, 77.46664113295182);
 
 
 
@@ -155,9 +158,21 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                     // below line is use to add custom marker on our map.
                     .icon(BitmapFromVector(getApplicationContext(), R.drawable.ic_local_police)));
             mMap.moveCamera(CameraUpdateFactory.newLatLng(ghaziabad));
-            cameraPosition = new CameraPosition.Builder().target(new LatLng(28.6786445,77.4685118)).zoom(15).build();
+
+            mMap.addMarker(new MarkerOptions().position(mrk2).title("Marker in Sydney")
+                    // below line is use to add custom marker on our map.
+                    .icon(BitmapFromVector(getApplicationContext(), R.drawable.ic_local_police)));
+            mMap.moveCamera(CameraUpdateFactory.newLatLng(mrk2));
+
+            mMap.addMarker(new MarkerOptions().position(mrk3).title("Marker in Sydney")
+                    // below line is use to add custom marker on our map.
+                    .icon(BitmapFromVector(getApplicationContext(), R.drawable.ic_local_police)));
+            mMap.moveCamera(CameraUpdateFactory.newLatLng(mrk3));
+
+            cameraPosition = new CameraPosition.Builder().target(new LatLng(28.6795104,77.4758446)).zoom(15).build();
             mMap.animateCamera(CameraUpdateFactory.newCameraPosition(cameraPosition));
-            Toast.makeText(this, "1st point in range ",Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Officer 1,Providing ON-ROUTE ASSISTANCE ",Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Officer 3,Providing ON-ROUTE ASSISTANCE ",Toast.LENGTH_SHORT).show();
 
         }
         else{
@@ -173,9 +188,15 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
             mMap.addMarker(new MarkerOptions().position(mrk1).title("Marker in Sydney")
                     .icon(BitmapFromVector(getApplicationContext(), R.drawable.ic_denial_police)) );
             mMap.moveCamera(CameraUpdateFactory.newLatLng(mrk1));
+
+            mMap.addMarker(new MarkerOptions().position(mrk4).title("Marker in Sydney")
+                    .icon(BitmapFromVector(getApplicationContext(), R.drawable.ic_denial_police)) );
+            mMap.moveCamera(CameraUpdateFactory.newLatLng(mrk4));
+
             cameraPosition = new CameraPosition.Builder().target(new LatLng(28.6786445,77.4685118)).zoom(15).build();
             mMap.animateCamera(CameraUpdateFactory.newCameraPosition(cameraPosition));
-            Toast.makeText(this, "2nd point out range ",Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Officer 2,Out of range ",Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Officer 4,Out of range ",Toast.LENGTH_SHORT).show();
 
         }
         else{
@@ -183,6 +204,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
             mMap.animateCamera(CameraUpdateFactory.newCameraPosition(cameraPosition));
 
             Toast.makeText(this, "2nd point out of range ",Toast.LENGTH_SHORT).show();
+
         }
 
 

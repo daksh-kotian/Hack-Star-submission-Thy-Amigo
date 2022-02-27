@@ -16,6 +16,7 @@ public class Hospital_Admin_Mainframe extends AppCompatActivity {
     //to inform communication with Police_Mainframe
 
     public void alert(View view){
+        Toast.makeText(this, "Emergency Declared", Toast.LENGTH_SHORT).show();
 
         Toast.makeText(this, "Alert Notification sent to On-Route Police for Assistance", Toast.LENGTH_SHORT).show();
     }

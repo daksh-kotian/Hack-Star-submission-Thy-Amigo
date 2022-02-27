@@ -11,7 +11,7 @@
         android:id="@+id/btn_proceed"
         android:layout_width="198dp"
         android:layout_height="69dp"
-        android:layout_marginBottom="80dp"
+        android:layout_marginBottom="100dp"
         android:backgroundTint="@color/black"
         android:fontFamily="sans-serif-black"
 
@@ -44,7 +44,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/amarante"
-        android:text="MEDBAY "
+        android:text="MEDWAY "
         android:textColor="#040303"
         android:textSize="60sp"
         app:layout_constraintBottom_toTopOf="@+id/btn_proceed"
