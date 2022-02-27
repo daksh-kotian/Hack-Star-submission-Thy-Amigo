@@ -4,34 +4,42 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/secondbg"
+    android:background="@drawable/AMBU"
     tools:context=".Ambulance_Mainframe">
 
     <Button
         android:id="@+id/button8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:fontFamily="sans-serif-black"
         android:onClick="maps"
         android:text="Main Map"
+        android:textColor="@color/white"
+        android:textSize="16sp"
         app:layout_constraintBottom_toTopOf="@+id/button9"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.816"
+        app:layout_constraintHorizontal_bias="0.654"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.854" />
+        app:layout_constraintVertical_bias="0.661" />
 
     <Button
         android:id="@+id/button9"
         android:layout_width="230dp"
         android:layout_height="71dp"
+        android:backgroundTint="@color/black"
+        android:fontFamily="sans-serif-black"
         android:onClick="alert"
-        android:text="Alert send and recieve"
+        android:text="Alert send and receive"
+        android:textColor="@color/white"
+        android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.686" />
+        app:layout_constraintVertical_bias="0.484" />
 
     <TextView
         android:id="@+id/tv"
@@ -47,37 +55,45 @@
 
     <TextView
         android:id="@+id/textView13"
-        android:layout_width="199dp"
-        android:layout_height="82dp"
-        android:text="Ambulance HomePage"
+        android:layout_width="371dp"
+        android:layout_height="74dp"
+        android:fontFamily="@font/hammersmith_one"
+        android:text="Ambulance Home Page"
         android:textColor="@color/black"
         android:textSize="34sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/tv"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.575"
+        app:layout_constraintHorizontal_bias="0.6"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.8" />
+        app:layout_constraintVertical_bias="1.0" />
 
     <TextView
         android:id="@+id/textView31"
         android:layout_width="108dp"
         android:layout_height="40dp"
+        android:fontFamily="@font/capriola"
         android:text="ROUTE"
+        android:textColor="#070707"
         android:textSize="24sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/button8"
-        app:layout_constraintHorizontal_bias="0.661"
+        app:layout_constraintHorizontal_bias="0.758"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.512" />
+        app:layout_constraintVertical_bias="0.272" />
 
     <TextView
         android:id="@+id/textView32"
         android:layout_width="215dp"
         android:layout_height="32dp"
+        android:fontFamily="@font/capriola"
         android:text="ALERT STATUS"
+        android:textColor="#0E0E0E"
         android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.255"
@@ -90,19 +106,26 @@
         android:layout_width="312dp"
         android:layout_height="50dp"
         android:layout_marginTop="10dp"
+        android:fontFamily="@font/capriola"
         android:text="Pending ..."
+        android:textColor="#070707"
+        android:textStyle="bold|italic"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView32" />
 
     <Button
         android:id="@+id/button4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
+        android:layout_width="108dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/black"
+        android:fontFamily="sans-serif-black"
         android:onClick="logout"
         android:text="Log-Out"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView33" />
 </androidx.constraintlayout.widget.ConstraintLayout>

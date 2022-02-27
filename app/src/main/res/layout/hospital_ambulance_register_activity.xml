@@ -4,28 +4,36 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/secondbg"
+    android:background="@drawable/ADMIN"
     tools:context=".Hospital_Ambulance_Register">
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:fontFamily="sans-serif-black"
         android:onClick="revertBack"
         android:text="Register and Save"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.45"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.843" />
+        app:layout_constraintVertical_bias="0.844" />
 
     <TextView
         android:id="@+id/textView12"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hospital login"
+        android:layout_width="245dp"
+        android:layout_height="56dp"
+        android:fontFamily="@font/hammersmith_one"
+        android:text="Hospital Login"
+        android:textColor="#0C0A0A"
         android:textSize="34sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/textView15"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -35,13 +43,16 @@
         android:id="@+id/textView15"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="20dp"
-        android:text="Hospital name"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="@font/capriola"
+        android:text="Hospital Name"
+        android:textColor="#0E0B0B"
         android:textSize="24sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/textView16"
         app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName3"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.863" />
+        app:layout_constraintVertical_bias="0.872" />
 
     <TextView
         android:id="@+id/textView16"
@@ -49,8 +60,11 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="52dp"
         android:layout_marginBottom="36dp"
+        android:fontFamily="@font/capriola"
         android:text="Address"
+        android:textColor="#090808"
         android:textSize="24sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/textView18"
         app:layout_constraintEnd_toStartOf="@+id/editTextTextPostalAddress2"
         app:layout_constraintStart_toStartOf="parent" />
@@ -59,22 +73,30 @@
         android:id="@+id/textView18"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="20dp"
-        android:text="Ambulance number"
+        android:layout_marginBottom="28dp"
+        android:fontFamily="@font/capriola"
+        android:text="Ambulance No."
+        android:textColor="#070606"
         android:textSize="24sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/textView19"
         app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName4"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textView19"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="28dp"
-        android:text="Driver's name"
+        android:layout_marginBottom="32dp"
+        android:fontFamily="@font/capriola"
+        android:text="Driver's Name"
+        android:textColor="#090707"
         android:textSize="24sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/textView20"
         app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName5"
+        app:layout_constraintHorizontal_bias="0.375"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
@@ -82,8 +104,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="100dp"
-        android:text="TextViewDriver's ID"
+        android:fontFamily="@font/capriola"
+        android:text="Driver's ID"
+        android:textColor="#070606"
         android:textSize="24sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName6"
         app:layout_constraintStart_toStartOf="parent" />
@@ -115,7 +140,7 @@
         android:ems="10"
         android:inputType="textPersonName"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPostalAddress2"
-        tools:layout_editor_absoluteX="226dp" />
+        tools:layout_editor_absoluteX="202dp" />
 
     <EditText
         android:id="@+id/editTextTextPersonName5"
@@ -133,5 +158,5 @@
         android:ems="10"
         android:inputType="textPersonName"
         app:layout_constraintBaseline_toBaselineOf="@+id/textView20"
-        tools:layout_editor_absoluteX="245dp" />
+        tools:layout_editor_absoluteX="202dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
